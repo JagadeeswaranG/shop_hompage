@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ product,addTocart,cartItems }) {
   return (
-    <div className="col-lg-4 border border-2 mt-2 mb-2">
+    <div className="col-lg-4 border border-2 mt-2 mb-2 ">
       <div className="row">
         <div className="col-lg-12 text-center">
           <img

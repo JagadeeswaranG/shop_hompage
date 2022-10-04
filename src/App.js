@@ -70,10 +70,12 @@ function App() {
   return (
     <div className="container">
       <div className="row mt-1">
+        <div className="head">
         <h4>
           <b>Ecom Prime - </b>electronic gadgets
         </h4>
-        <div className="col-lg-8">
+        </div>        
+        <div className="col-lg-8 ">
           <div className="row">
             {productDetails.map((product) => {
               return (
